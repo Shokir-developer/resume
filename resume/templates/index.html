@@ -1,0 +1,377 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Resume</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="{% static 'fonts/font-awesome.min.css' %}">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top" style="height: 40px;">shokir</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container"><img style="border-radius: 40%; max-width: 300px;" class="img-fluid d-block mx-auto mb-5" src="{% static 'img/men.jpg' %}">
+            <h1>Shokir Begbotov</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0">Web Developer - Django Framework- Rest API</h2>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">Portfolio</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-1" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/school.jpeg' %}">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-2" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/cake.png' %}">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-3" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/wedding.png' %}">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-4" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/blog.webp' %}">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-5" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/safe.png' %}">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-6" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/verb.png' %}">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-7" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/taxiuz.png' %}">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-8" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/computer.png' %}">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-9" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="{% static 'img/portfolio/todo.png' %}">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-white bg-primary mb-0" id="about">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">About</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">Begbotov Shokir Fayzulla og'li 1998-yil 1-fevralda Sirdaryo viloyati Sayxunobod tumanida tug'ilgan.
+                    Shu tumandagi 8-sonli maktab, Guliston shahridagi 1-akademik litseyni va Toshkent Axborot Texnologiyalar
+                 Universitetini tamomlagan. </p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">Hozirda Unicon-Soft MCHJ xodimi.
+                    	HTML, Css, Bootstrap, Js, Python, Django Framework, Rest API va SQL orqali web sahifalar yaratish
+                    bilan shug'ullanadi. Hozirda freelancerlik ham qilib keladi.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary mb-0">Contact Me</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                	<form method="POST">
+                		
+                		{% csrf_token %}
+                	<div class="control-group">
+                		 <div class="mb-0 form-floating controls pb-2">{{form.name}}
+                		<label class="form-label">Name</label><small class="form-text text-danger help-block"></small></div>
+                	</div>
+
+                	<div class="control-group">
+                		 <div class="mb-0 form-floating controls pb-2">{{form.email}}
+                		<label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                	</div>
+
+                	<div class="control-group">
+                		 <div class="mb-0 form-floating controls pb-2">{{form.phone}}
+                		<label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
+                	</div>
+
+                	<div class="control-group">
+                            <div class="mb-5 form-floating controls pb-2">{{form.text}}<label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
+                     </div>
+                     <div id="success"></div>
+                        <div><button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton" >Send</button></div>
+                	</form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p>Sirdaryo viloyati, Sayxunobod tumani<br>Baxmal , Ostona -3</p>
+                    <p></p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Around the Web</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://t.me/begbotov_shokir"><i class="fa fa-telegram fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://begbotovshake@gmail.com"><i class="fa fa-google-plus fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://twitter.com"><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://shokir.uz"><i class="fa fa-dribbble fa-fw"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <p class="lead mb-0"><span>Freelancer — erkin ishchi  bo‘lib, asosan, bir martalik yoki mavsumiy xizmatlarni  bajarish uchun yollangan, buyurtma asosida qandaydir  ish yoki xizmatni kelishilgan haq evaziga belgilangan vaqt  davomida amalga oshirib beruvchi shaxs.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Call ©&nbsp;(90) 152-47-07</small></div>
+    </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">8-maktab</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/school.jpeg' %}">
+                                <p class="mb-5">Sirdaryo viloyati Sayxunobod tumani 8-sonli maktab uchun tayyorlanga web sayt. Sayt asosiy 
+                                oyna, rahbariyat oynasi, sinflar va fanlar menularidan iborat. Sinflar oynasi orqali har bir 
+                                o'quvchining shaxsiy ma'lumotlarini ham ko'rish mumkin. <br>
+                                	<a href="https://github.com/Shokir-developer/8-maktab">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Uchrashuv Cafe</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/cake.png' %}">
+                                <p class="mb-5">Sirdaryo viloyati Guliston shahrida joylashgan Uchrashuv Cafe si uchun tayyorlangan.
+                                	Saytda taomlar, ichimlik va salatlar ro'yxati va tarkibi ko'rsatilgan. Maxsus taomlar menusi ham mavjud. Shuningdek oldindan stol buyurtma qilish ham mumkin.<br>
+                                	<a href="https://github.com/Shokir-developer/uchrashuv_cafe">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">My Wedding</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/wedding.png' %}">
+                                <p class="mb-5">2021 - yil 14- avgustda bo'lib o'tgan to'yim uchun sayt. Saytda rasmlar 
+                                kollesiyasini ham ko'rishingiz mumkin. <br>
+                                	<a href="https://github.com/Shokir-developer/MyWedding">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Blog Post</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/blog.webp' %}">
+                                <p class="mb-5">Shaxsiy blog sayt yuritishni yoqtiradiganlar uchun sayt. Ixtiyoriy yangiliklarni joylab 
+                                borish mumkin. <br>
+                                	<a href="https://github.com/Shokir-developer/blogPost">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Amtc</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/safe.png' %}">
+                                <p class="mb-5">Sirdaryo viloyati Uztelecom AK  AMTC bo'limi uchun tayyorlangan sayt.
+                                	Bu sayt AMTC bo'limi ishini tezlashtirib beradi.<br>
+                                	<a href="https://github.com/Shokir-developer/atc">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Phrasal verbs</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/verb.png' %}">
+                                <p class="mb-5">Ko'pchilik til or'ganuvchilarni qiynovchi mavzu Phrasal verbs mavzusi. Bu saytda
+                                 phrasal verblar ro'yxati , tarjimasi va ularga gaplar orqali misollar ham keltirilgan. <br>
+                                	<a href="https://github.com/Shokir-developer/phrasalVerbs">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-7">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Taxi Service</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/taxiuz.png' %}">
+                                <p class="mb-5">Taxi service saytimizda 3 ta xizmat mavjud: yengil avtomobillar yollash, yuk tashish 
+                                	uchun yuk avtomobillri va pochta yetkazib berish xizmati ham mavjud. Saytda kirib online
+                                	ariza qoldirishingiz mumkin.<br>
+                                	<a href="https://github.com/Shokir-developer/Taxi_Service">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-8">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Computer Service</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/computer.png' %}">
+                                <p class="mb-5">GCS ya'ni Guliston Computer Service saytida kompyuter uchun kerakli jihozlar , qo'shimcha uskunlarni topishingiz mumkin.. <br>
+                                	<a href="https://github.com/Shokir-developer/Computer_service">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-9">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">To Do</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="{% static 'img/portfolio/todo.png' %}">
+                                <p class="mb-5">Kunini rejalashtirishni yoqtiradiganlar uchun sayt. Kunlik rejalaringizni yozib
+                                	ketma-ket bajarishingizga yordam beradi.<br>
+                                	<a href="https://github.com/Shokir-developer/to-do-app">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/freelancer.js' %}"></script>
+</body>
+
+</html>
